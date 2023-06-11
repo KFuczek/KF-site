@@ -21,7 +21,7 @@ async function getData(url) {
     return response.json();
 }
 
-export default async () => {
+export default async function Testurl() {
     const data = await getData('http://localhost:3000/api/testApi');
     return <div> test url { data }</div>
 }
