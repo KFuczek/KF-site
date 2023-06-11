@@ -1,4 +1,5 @@
 'use client';
+import { useState } from "react";
 
 async function getData(url) {
     const response = await fetch(url, {
@@ -22,8 +23,10 @@ async function getData(url) {
 }
 
 export default async function Testurl() {
+    const [data, setData] = useState(null);
     try {
-        const data = await getData('http://localhost:3000/api/testApi');
+        const dataFromUrl = await getData('http://localhost:3000/api/testApi');
+        setData(dataFromUrl)
     } catch (error) {
         console.log('There was an error', error);
     }
