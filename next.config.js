@@ -22,4 +22,5 @@ module.exports = {
     assetPrefix: assetPrefix,
     basePath: basePath,
     images: images,
+    output: 'export',
 }
