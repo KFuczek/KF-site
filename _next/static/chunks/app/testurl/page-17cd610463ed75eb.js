@@ -1,0 +1,9 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[100],{6369:function(e,r,t){Promise.resolve().then(t.bind(t,3098))},3098:function(e,r,t){"use strict";t.r(r),t.d(r,{default:function(){return s}});var n=t(9268),o=t(6006);async function c(e){let r=await fetch(e,{method:"GET",mode:"cors",cache:"no-cache",credentials:"same-origin",headers:{"Content-Type":"application/json"},redirect:"follow",referrerPolicy:"no-referrer"});if(!r.ok)throw Error("Failed to fetch data");return r.json()}async function s(){let[e,r]=(0,o.useState)(null);try{let e=await c("http://localhost:3000/api/testApi");r(e)}catch(e){console.log("There was an error",e)}return(0,n.jsxs)("div",{children:[" test url ",e]})}},3177:function(e,r,t){"use strict";/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var n=t(6006),o=Symbol.for("react.element"),c=(Symbol.for("react.fragment"),Object.prototype.hasOwnProperty),s=n.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,a={key:!0,ref:!0,__self:!0,__source:!0};function i(e,r,t){var n,i={},f=null,l=null;for(n in void 0!==t&&(f=""+t),void 0!==r.key&&(f=""+r.key),void 0!==r.ref&&(l=r.ref),r)c.call(r,n)&&!a.hasOwnProperty(n)&&(i[n]=r[n]);if(e&&e.defaultProps)for(n in r=e.defaultProps)void 0===i[n]&&(i[n]=r[n]);return{$$typeof:o,type:e,key:f,ref:l,props:i,_owner:s.current}}r.jsx=i,r.jsxs=i},9268:function(e,r,t){"use strict";e.exports=t(3177)}},function(e){e.O(0,[667,488,744],function(){return e(e.s=6369)}),_N_E=e.O()}]);
