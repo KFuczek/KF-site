@@ -15,6 +15,7 @@ if (isGithubActions) {
 
 const images = {
     loader: 'akamai',
+    path: '',
 }
 
 module.exports = {
