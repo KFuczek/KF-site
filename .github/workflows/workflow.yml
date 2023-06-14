@@ -37,4 +37,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.4.2
         with:
           branch: gh-pages
-          path: ./out
+          folder: out
