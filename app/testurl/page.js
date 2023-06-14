@@ -31,5 +31,5 @@ export default async function Testurl() {
         console.log('There was an error', error);
     }
 
-    return <div> test url { data }</div>
+    return <div> test url{'->'} { data } {'<-'}</div>
 }
